@@ -1,0 +1,20 @@
+{
+  "name": "888cargo",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "out" : "next build && next export"
+  },
+  "dependencies": {
+    "firebase": "^10.4.0",
+    "jspdf": "^2.5.1",
+    "next": "latest",
+    "qrcode": "^1.5.3",
+    "react": "latest",
+    "react-dom": "latest"
+  }
+}
